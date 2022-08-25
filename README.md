@@ -38,4 +38,4 @@ For the custom report, I chose to filter customers by first level divisions.  Th
 
 Video Demonstration:
 
-[![Watch the video](https://img.youtube.com/vi/kgWswlccgU0/0/jpg)](https://www.youtube.com/watch?v=kgWswlccgU0)
+[![Appointment-Scheduler](https://img.youtube.com/vi/kgWswlccgU0/0.jpg)](https://www.youtube.com/watch?v=kgWswlccgU0)
