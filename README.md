@@ -30,11 +30,6 @@ mysql-connector-java-8.0.28
 
 How To Run:
 
-First, install all proper IDE and javafx software.  Once installed, open the ‘C195_Appointment_Project.iml’ file in IntelliJ.  Click the run button to start the application.  Once the login page appears, enter these credentials: 
-
-username: test
-password: test
-
 The login page can be translated to French based on the local machine’s language settings.  However, there’s also an optional dropdown to select the language in order to avoid doing a system restart when changing language settings.  Once logged in, the main menu lets the user choose between ‘Appointments’, ‘Customers’, ‘Reports’, and ‘Exit’.  Appointments takes the user to the appointment page where the user is able to add, edit, or delete appointments.  Appointments can also be filtered by current month or current week.  Customers takes the user to the customer records page where they’re able to add, edit or delete customers.  Reports takes the user to the report page where the user can view the appointments for each contact, total appointments by type/month, and a custom report.  Users can exit the app by clicking the exit button.
 
 Additional Report:
