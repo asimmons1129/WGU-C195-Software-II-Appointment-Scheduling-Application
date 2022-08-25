@@ -35,3 +35,7 @@ The login page can be translated to French based on the local machine’s langua
 Additional Report:
 
 For the custom report, I chose to filter customers by first level divisions.  The table displays each first level division assigned to a customer on the left and the total customers with that first level division on the right.  This was accomplished through an SQL query that performed an inner join where the ‘Customers’ table and ‘FLDivisions’ table had the same division ID and tallied how many customers had each similar division ID assigned.  This report is a good way to look at which areas have the most customers.
+
+Video Demonstration:
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/kgWswlccgU0)
