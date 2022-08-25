@@ -1,10 +1,5 @@
 # WGU-C195-Software-II-Appointment-Scheduling-Application
 
-
-Project Title
-
-C195_Appointment_Project
-
 Purpose of Application:
 
 The purpose of this application is to build a fully functioning GUI based appointment scheduling application containing multiple functionalities
