@@ -7,8 +7,9 @@ The purpose of this application is to build a fully functioning GUI based appoin
 Author Information:
 
 Author: Andre Simmons
-Contact Info: asim435@wgu.edu
+
 Application Version: 1.0
+
 Date: 8/24/22
 
 
