@@ -146,8 +146,11 @@ public class CustomerController implements Initializable {
                 for (Appointment appointment : getAllAppointmentsList) {
                     int customerFromAppointments = appointment.getCustomerID();
                     if (customerFromTable == customerFromAppointments) {
-                        String deleteStatementAppointments = "DELETE FROM appointments WHERE Appointment_ID = ?";
+                        String deleteStatementAppointments = "DELETE FROM appointments WHERE Customer_ID = ?";
                         ConnectDB.setPreparedStatement(ConnectDB.getConnection(), deleteStatementAppointments);
+                        PreparedStatement psAppDelete = ConnectDB.getPreparedStatement();
+                        psAppDelete.setInt(1, customerFromAppointments);
+                        psAppDelete.execute();
                     }
                 }
                 psDelete.setInt(1, customerFromTable);
